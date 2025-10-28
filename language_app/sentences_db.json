@@ -1,0 +1,186 @@
+{
+  "sentences": [
+    {
+      "translation": "Quella cosa simile a un serpente è la tua vera identità, giusto?",
+      "parts": [
+        {
+          "word": "あの",
+          "variant": "adjective",
+          "speechPart": "subject",
+          "translation": "quella",
+          "phonetics": null
+        },
+        {
+          "word": "ヘビ",
+          "variant": "noun",
+          "speechPart": "subject",
+          "translation": "serpente",
+          "phonetics": null
+        },
+        {
+          "word": "みたいな",
+          "variant": "adjective",
+          "speechPart": "subject",
+          "translation": "simile a",
+          "phonetics": null
+        },
+        {
+          "word": "の",
+          "variant": "noun",
+          "speechPart": "subject",
+          "translation": "cosa",
+          "phonetics": null
+        },
+        {
+          "word": "が",
+          "variant": "other",
+          "speechPart": "other",
+          "translation": null,
+          "phonetics": null
+        },
+        {
+          "word": "お前",
+          "variant": "noun",
+          "speechPart": "predicate",
+          "translation": "tua",
+          "phonetics": "おまえ"
+        },
+        {
+          "word": "の",
+          "variant": "other",
+          "speechPart": "other",
+          "translation": null,
+          "phonetics": null
+        },
+        {
+          "word": "正体",
+          "variant": "noun",
+          "speechPart": "predicate",
+          "translation": "vera identità",
+          "phonetics": "しょうたい"
+        },
+        {
+          "word": "なんだ",
+          "variant": "verb",
+          "speechPart": "predicate",
+          "translation": "è",
+          "phonetics": null
+        },
+        {
+          "word": "ろ",
+          "variant": "other",
+          "speechPart": "other",
+          "translation": "giusto?",
+          "phonetics": null
+        },
+        {
+          "word": "？",
+          "variant": "other",
+          "speechPart": "other",
+          "translation": null,
+          "phonetics": null
+        }
+      ],
+      "sentence": "あのヘビみたいなのがお前の正体なんだろ？",
+      "id": "c7c355cc-0aa4-4656-8cd0-14c3aa1ad539"
+    },
+    {
+      "translation": "L'incubo non vuole finire.",
+      "parts": [
+        {
+          "word": "悪夢",
+          "variant": "noun",
+          "speechPart": "subject",
+          "translation": "incubo",
+          "phonetics": "あくむ"
+        },
+        {
+          "word": "が",
+          "variant": "other",
+          "speechPart": "other",
+          "translation": null,
+          "phonetics": null
+        },
+        {
+          "word": "覚めて",
+          "variant": "verb",
+          "speechPart": "predicate",
+          "translation": "finisce",
+          "phonetics": "さめて"
+        },
+        {
+          "word": "くれ",
+          "variant": "verb",
+          "speechPart": "predicate",
+          "translation": null,
+          "phonetics": null
+        },
+        {
+          "word": "ない",
+          "variant": "other",
+          "speechPart": "predicate",
+          "translation": "non",
+          "phonetics": null
+        }
+      ],
+      "sentence": "悪夢が覚めてくれない",
+      "id": "9101993d-2017-464f-b753-7a391b894741"
+    },
+    {
+      "translation": "Come puoi vedere, è studio.",
+      "parts": [
+        {
+          "word": "見て",
+          "variant": "verb",
+          "speechPart": "other",
+          "translation": "vedi",
+          "phonetics": "見(み)て"
+        },
+        {
+          "word": "の",
+          "variant": "other",
+          "speechPart": "other",
+          "translation": null,
+          "phonetics": null
+        },
+        {
+          "word": "通り",
+          "variant": "noun",
+          "speechPart": "other",
+          "translation": "come",
+          "phonetics": null
+        },
+        {
+          "word": "さ",
+          "variant": "other",
+          "speechPart": "other",
+          "translation": null,
+          "phonetics": null
+        },
+        {
+          "word": "勉強",
+          "variant": "noun",
+          "speechPart": "predicate",
+          "translation": "studio",
+          "phonetics": null
+        },
+        {
+          "word": "だ",
+          "variant": "other",
+          "speechPart": "predicate",
+          "translation": "è",
+          "phonetics": null
+        },
+        {
+          "word": "よ",
+          "variant": "other",
+          "speechPart": "other",
+          "translation": null,
+          "phonetics": null
+        }
+      ],
+      "sentence": "見ての通りさ勉強だよ",
+      "id": "ed3c59a0-f89b-488d-9f93-98f851622388"
+    }
+  ]
+}
