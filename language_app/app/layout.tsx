@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Noto_Sans, Noto_Sans_JP, Noto_Sans_KR, Noto_Sans_SC, Noto_Sans_Arabic } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -10,6 +10,42 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+// Font per supporto multi-lingua
+const notoSans = Noto_Sans({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-noto-sans',
+  display: 'swap',
+});
+
+const notoSansJP = Noto_Sans_JP({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+  variable: '--font-noto-sans-jp',
+  display: 'swap',
+});
+
+const notoSansKR = Noto_Sans_KR({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+  variable: '--font-noto-sans-kr',
+  display: 'swap',
+});
+
+const notoSansSC = Noto_Sans_SC({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+  variable: '--font-noto-sans-sc',
+  display: 'swap',
+});
+
+const notoSansArabic = Noto_Sans_Arabic({
+  subsets: ['latin', 'arabic'],
+  weight: ['400', '500', '700'],
+  variable: '--font-noto-sans-arabic',
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -23,10 +59,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={`
+      ${geistSans.variable} 
+      ${geistMono.variable}
+      ${notoSans.variable}
+      ${notoSansJP.variable}
+      ${notoSansKR.variable}
+      ${notoSansSC.variable}
+      ${notoSansArabic.variable}
+    `}>
+      <body className="antialiased">
         {children}
       </body>
     </html>

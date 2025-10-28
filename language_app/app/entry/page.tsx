@@ -154,5 +154,3 @@ function YourComponent() {
     </main>
   );
 }
-
-export default YourComponent;

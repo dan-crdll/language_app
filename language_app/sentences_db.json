@@ -82,7 +82,64 @@
         }
       ],
       "sentence": "あのヘビみたいなのがお前の正体なんだろ？",
-      "id": "c7c355cc-0aa4-4656-8cd0-14c3aa1ad539"
+      "id": "c7c355cc-0aa4-4656-8cd0-14c3aa1ad539",
+      "grammarCards": [
+        {
+          "id": "b7cb7fee-d95b-4d32-8310-1f02e64e9f74",
+          "selectedText": "お前 の 正体 なんだ ろ ？",
+          "explanation": "L'espressione selezionata \"お前の正体なんだろ？\" fa parte di una frase più ampia \"あのヘビみたいなのがお前の正体なんだろ？\" che si traduce come \"Quella cosa simile a un serpente, è la tua vera identità, vero?\". Questa costruzione è un esempio eccellente di come il giapponese utilizzi particelle e forme verbali per esprimere sfumature di spiegazione, assertività, congettura e ricerca di conferma, il tutto in un registro informale.\n\n**Grammatica**\nLa parte centrale \"なんだろ\" è una combinazione di due importanti elementi grammaticali: la costruzione esplicativa *のだ/んだ* e la forma congetturale/di conferma *だろう/だろ*. \n\n*La costruzione のだ (noda) / んだ (nda)*:\n\nQuesta costruzione viene utilizzata per:\n-   **Dare una spiegazione o una ragione**: Viene spesso impiegata quando si fornisce una giustificazione per un'azione o una situazione. Esempio: _「遅れてごめんなさい、道が混んでいたんです。」_ (Mi dispiace per il ritardo, è che la strada era congestionata.)\n-   **Fare un'affermazione o dare enfasi**: Può rafforzare una dichiarazione, rendendola più assertiva o sottolineando che si tratta di un fatto. Esempio: _「これが私の夢なんだ。」_ (Questo è il mio sogno, [lo è davvero]).\n-   **Fornire un contesto o uno sfondo**: Introduce informazioni che servono a capire meglio una situazione.\n\nLa forma di congiunzione varia a seconda della parte del discorso precedente:\n-   **Per nomi e aggettivi-na**: *Nome/Aggettivo-na + なのだ / なんだ*. Esempio: _「彼は日本人なんだ。」_ (È un giapponese.) _「ここは静かなんだ。」_ (Qui è tranquillo.)\n-   **Per verbi e aggettivi-i**: *Verbo (forma piana) / Aggettivo-i (forma piana) + のだ / んだ*. Esempio: _「食べるんだ。」_ (Mangio/È che mangio.) _「美味しいんだ。」_ (È che è delizioso.)\n\nNel nostro caso, \"正体\" (shoutai) è un nome, quindi si lega con \"なんだ\" (なのだ).\n\n*La forma だろう (darou) / だろ (daro)*:\n\nQuesta è la forma congetturale/volitiva della copula *だ (da)* e del verbo *ある (aru)*. Si usa per:\n-   **Esprimere congettura o probabilità**: Si traduce spesso con \"probabilmente\", \"credo che\", \"sarà\". Esempio: _「明日は晴れるだろう。」_ (Domani probabilmente farà bel tempo.)\n-   **Cercare conferma o accordo (se usata in una domanda)**: Quando segue una frase interrogativa o è accompagnata da un punto interrogativo, serve a chiedere all'interlocutore di confermare una supposizione, simile a \"vero?\", \"non è così?\". Esempio: _「君は日本人だろう？」_ (Tu sei giapponese, vero?)\n\nLa combinazione *なんだろ* (contrazione informale di *なんだろう*) quindi unisce l'assertività esplicativa di *なんだ* con la richiesta di conferma di *だろ*. Significa essenzialmente \"È [la tua vera identità], vero?\" o \"Immagino/presumo che sia [la tua vera identità], no?\".\n\n**Singole Parti**\n\n-   **お前 (omae)**: È un pronome personale di seconda persona singolare molto informale, che significa \"tu\". Il suo uso è limitato a contesti di grande familiarità, a volte con una connotazione di superiorità o rudezza. Qui, suggerisce una relazione diretta e forse un po' brusca tra i parlanti.\n-   **の (no)**: Questa è la particella possessiva. Collega il pronome \"お前\" (il possessore) al nome \"正体\" (la cosa posseduta o descritta), formando la locuzione nominale \"お前の正体\" che significa \"la tua vera identità\" o \"la vera identità di te\".\n-   **正体 (shoutai)**: È un nome comune che significa \"vera identità\", \"vera forma\" o \"natura reale\". In questo contesto, è ciò che si presume sia l'oggetto dell'affermazione (\"la cosa simile a un serpente\").\n-   **なんだ (nanda)**: Come spiegato sopra, è la forma contratta e informale di \"なのだ\". Funge da copula esplicativa o assertiva. Lega \"正体\" al resto della frase, affermando che la \"vera identità\" *è* qualcosa e fornendo questa affermazione come una spiegazione o un fatto. Indica che l'oratore sta proponendo questo come una spiegazione o una verità che ha scoperto.\n-   **ろ (ro)**: Questa è la forma abbreviata e informale di \"だろう\" (darou), che a sua volta è la forma congetturale della copula \"だ\". In questo contesto, aggiunge un tono interrogativo di ricerca di conferma o un'ipotesi che ci si aspetta venga confermata dall'interlocutore. È un modo colloquiale per dire \"vero?\" o \"non è così?\".\n-   **？ (kuesuchon maaku)**: Il punto interrogativo rafforza l'intento interrogativo della frase. Senza di esso, \"なんだろ\" potrebbe suonare più come una congettura affermativa, ma con il \"?\" diventa chiaramente una richiesta di conferma.",
+          "parts": [
+            {
+              "word": "お前",
+              "variant": "noun",
+              "speechPart": "predicate",
+              "translation": "tua",
+              "phonetic": "おまえ",
+              "index": 5
+            },
+            {
+              "word": "の",
+              "variant": "other",
+              "speechPart": "other",
+              "translation": null,
+              "phonetic": null,
+              "index": 6
+            },
+            {
+              "word": "正体",
+              "variant": "noun",
+              "speechPart": "predicate",
+              "translation": "vera identità",
+              "phonetic": "しょうたい",
+              "index": 7
+            },
+            {
+              "word": "なんだ",
+              "variant": "verb",
+              "speechPart": "predicate",
+              "translation": "è",
+              "phonetic": null,
+              "index": 8
+            },
+            {
+              "word": "ろ",
+              "variant": "other",
+              "speechPart": "other",
+              "translation": "giusto?",
+              "phonetic": null,
+              "index": 9
+            },
+            {
+              "word": "？",
+              "variant": "other",
+              "speechPart": "other",
+              "translation": null,
+              "phonetic": null,
+              "index": 10
+            }
+          ]
+        }
+      ]
     },
     {
       "translation": "L'incubo non vuole finire.",
